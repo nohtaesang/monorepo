@@ -1,7 +1,7 @@
 {
-  "name": "pixi",
+  "name": "pixi-test",
   "version": "1.0.0",
-  "main": "./dist/bundle.js",
+  "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",

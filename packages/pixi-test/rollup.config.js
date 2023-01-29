@@ -4,7 +4,7 @@ import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 export default [
   {
-    input: './src/index.tsx',
+    input: './index.ts',
     output: {
       dir: 'dist',
       format: 'esm',
@@ -15,7 +15,7 @@ export default [
     plugins: [peerDepsExternal(), esbuild({ jsx: 'automatic', target: 'esnext' })],
   },
   {
-    input: './src/index.tsx',
+    input: './index.ts',
     output: {
       dir: 'dist',
       format: 'esm',
