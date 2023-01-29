@@ -4,19 +4,7 @@
     "module": "ESNext",
     "jsx": "preserve",
     "sourceMap": true,
-    "rootDir": "./src",
-    "outDir": "dist",
-    //   "downlevelIteration": true,
-    //   "strict": true,
-    //   "noImplicitAny": false,
-    //   "moduleResolution": "node",
-    //   "baseUrl": ".",
-    //   "paths": {
-    //     "*": ["node_modules/*"]
-    //   },
     "esModuleInterop": true,
-    //   "skipLibCheck": true,
-    //   "forceConsistentCasingInFileNames": true
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
