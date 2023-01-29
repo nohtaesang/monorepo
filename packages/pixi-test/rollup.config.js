@@ -2,7 +2,7 @@ import esbuild from 'rollup-plugin-esbuild';
 import dts from 'rollup-plugin-dts';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
-export default [
+const config = [
   {
     input: './index.ts',
     output: {
@@ -25,3 +25,4 @@ export default [
     plugins: [peerDepsExternal(), esbuild({ jsx: 'automatic', target: 'esnext' }), dts()],
   },
 ];
+export default config;
